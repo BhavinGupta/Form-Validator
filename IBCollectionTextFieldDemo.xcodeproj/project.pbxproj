@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD43D3711EC1C25D004585DC /* TextFieldTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD43D3701EC1C25D004585DC /* TextFieldTableCell.m */; };
+		BD5661411EC1BA7B00F49C7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5661401EC1BA7B00F49C7B /* main.m */; };
+		BD5661441EC1BA7B00F49C7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5661431EC1BA7B00F49C7B /* AppDelegate.m */; };
+		BD5661471EC1BA7B00F49C7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5661461EC1BA7B00F49C7B /* ViewController.m */; };
+		BD56614A1EC1BA7B00F49C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5661481EC1BA7B00F49C7B /* Main.storyboard */; };
+		BD56614C1EC1BA7B00F49C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD56614B1EC1BA7B00F49C7B /* Assets.xcassets */; };
+		BD56614F1EC1BA7B00F49C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD56614D1EC1BA7B00F49C7B /* LaunchScreen.storyboard */; };
+		DCDAB47F1EE2B514088C531F /* libPods-IBCollectionTextFieldDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F451221A98CAA183FF35D12B /* libPods-IBCollectionTextFieldDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A75F54A4A5D30C395EEBF53 /* Pods-IBCollectionTextFieldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBCollectionTextFieldDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBCollectionTextFieldDemo/Pods-IBCollectionTextFieldDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		79F6833F39BBBB9E4FEDFE03 /* Pods-IBCollectionTextFieldDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBCollectionTextFieldDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBCollectionTextFieldDemo/Pods-IBCollectionTextFieldDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BD43D36F1EC1C25D004585DC /* TextFieldTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldTableCell.h; sourceTree = "<group>"; };
+		BD43D3701EC1C25D004585DC /* TextFieldTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldTableCell.m; sourceTree = "<group>"; };
+		BD56613C1EC1BA7B00F49C7B /* IBCollectionTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBCollectionTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5661401EC1BA7B00F49C7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD5661421EC1BA7B00F49C7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD5661431EC1BA7B00F49C7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD5661451EC1BA7B00F49C7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD5661461EC1BA7B00F49C7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD5661491EC1BA7B00F49C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD56614B1EC1BA7B00F49C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD56614E1EC1BA7B00F49C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD5661501EC1BA7B00F49C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F451221A98CAA183FF35D12B /* libPods-IBCollectionTextFieldDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IBCollectionTextFieldDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5661391EC1BA7B00F49C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDAB47F1EE2B514088C531F /* libPods-IBCollectionTextFieldDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C39C25838D5B7564FB479C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F451221A98CAA183FF35D12B /* libPods-IBCollectionTextFieldDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F5EFF3473B7E085CE3BB735 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A75F54A4A5D30C395EEBF53 /* Pods-IBCollectionTextFieldDemo.debug.xcconfig */,
+				79F6833F39BBBB9E4FEDFE03 /* Pods-IBCollectionTextFieldDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD5661331EC1BA7B00F49C7B = {
+			isa = PBXGroup;
+			children = (
+				BD56613E1EC1BA7B00F49C7B /* IBCollectionTextFieldDemo */,
+				BD56613D1EC1BA7B00F49C7B /* Products */,
+				6F5EFF3473B7E085CE3BB735 /* Pods */,
+				15C39C25838D5B7564FB479C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD56613D1EC1BA7B00F49C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD56613C1EC1BA7B00F49C7B /* IBCollectionTextFieldDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD56613E1EC1BA7B00F49C7B /* IBCollectionTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BD5661421EC1BA7B00F49C7B /* AppDelegate.h */,
+				BD5661431EC1BA7B00F49C7B /* AppDelegate.m */,
+				BD5661451EC1BA7B00F49C7B /* ViewController.h */,
+				BD5661461EC1BA7B00F49C7B /* ViewController.m */,
+				BD43D36F1EC1C25D004585DC /* TextFieldTableCell.h */,
+				BD43D3701EC1C25D004585DC /* TextFieldTableCell.m */,
+				BD5661481EC1BA7B00F49C7B /* Main.storyboard */,
+				BD56614B1EC1BA7B00F49C7B /* Assets.xcassets */,
+				BD56614D1EC1BA7B00F49C7B /* LaunchScreen.storyboard */,
+				BD5661501EC1BA7B00F49C7B /* Info.plist */,
+				BD56613F1EC1BA7B00F49C7B /* Supporting Files */,
+			);
+			path = IBCollectionTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		BD56613F1EC1BA7B00F49C7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD5661401EC1BA7B00F49C7B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD56613B1EC1BA7B00F49C7B /* IBCollectionTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5661531EC1BA7B00F49C7B /* Build configuration list for PBXNativeTarget "IBCollectionTextFieldDemo" */;
+			buildPhases = (
+				6D53B4B96BF14E7F008E97DC /* [CP] Check Pods Manifest.lock */,
+				BD5661381EC1BA7B00F49C7B /* Sources */,
+				BD5661391EC1BA7B00F49C7B /* Frameworks */,
+				BD56613A1EC1BA7B00F49C7B /* Resources */,
+				3E0D85BA17DEBF775209279F /* [CP] Embed Pods Frameworks */,
+				F59F0E552422F61BC934EBA4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBCollectionTextFieldDemo;
+			productName = IBCollectionTextFieldDemo;
+			productReference = BD56613C1EC1BA7B00F49C7B /* IBCollectionTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD5661341EC1BA7B00F49C7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Easy Pay";
+				TargetAttributes = {
+					BD56613B1EC1BA7B00F49C7B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8N9YWC6Z6P;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = BD5661371EC1BA7B00F49C7B /* Build configuration list for PBXProject "IBCollectionTextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD5661331EC1BA7B00F49C7B;
+			productRefGroup = BD56613D1EC1BA7B00F49C7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD56613B1EC1BA7B00F49C7B /* IBCollectionTextFieldDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD56613A1EC1BA7B00F49C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD56614F1EC1BA7B00F49C7B /* LaunchScreen.storyboard in Resources */,
+				BD56614C1EC1BA7B00F49C7B /* Assets.xcassets in Resources */,
+				BD56614A1EC1BA7B00F49C7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E0D85BA17DEBF775209279F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBCollectionTextFieldDemo/Pods-IBCollectionTextFieldDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D53B4B96BF14E7F008E97DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F59F0E552422F61BC934EBA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBCollectionTextFieldDemo/Pods-IBCollectionTextFieldDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD5661381EC1BA7B00F49C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD43D3711EC1C25D004585DC /* TextFieldTableCell.m in Sources */,
+				BD5661471EC1BA7B00F49C7B /* ViewController.m in Sources */,
+				BD5661441EC1BA7B00F49C7B /* AppDelegate.m in Sources */,
+				BD5661411EC1BA7B00F49C7B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD5661481EC1BA7B00F49C7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5661491EC1BA7B00F49C7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD56614D1EC1BA7B00F49C7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD56614E1EC1BA7B00F49C7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD5661511EC1BA7B00F49C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD5661521EC1BA7B00F49C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD5661541EC1BA7B00F49C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A75F54A4A5D30C395EEBF53 /* Pods-IBCollectionTextFieldDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N9YWC6Z6P;
+				INFOPLIST_FILE = IBCollectionTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easypay.IBCollectionTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b85418b-46fc-40b6-8029-82dd77947e41";
+				PROVISIONING_PROFILE_SPECIFIER = EPWildcardDevelopmentProfile;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD5661551EC1BA7B00F49C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F6833F39BBBB9E4FEDFE03 /* Pods-IBCollectionTextFieldDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N9YWC6Z6P;
+				INFOPLIST_FILE = IBCollectionTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easypay.IBCollectionTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b85418b-46fc-40b6-8029-82dd77947e41";
+				PROVISIONING_PROFILE_SPECIFIER = EPWildcardDevelopmentProfile;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD5661371EC1BA7B00F49C7B /* Build configuration list for PBXProject "IBCollectionTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5661511EC1BA7B00F49C7B /* Debug */,
+				BD5661521EC1BA7B00F49C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5661531EC1BA7B00F49C7B /* Build configuration list for PBXNativeTarget "IBCollectionTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5661541EC1BA7B00F49C7B /* Debug */,
+				BD5661551EC1BA7B00F49C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD5661341EC1BA7B00F49C7B /* Project object */;
+}
